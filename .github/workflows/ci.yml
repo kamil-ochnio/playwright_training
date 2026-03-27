@@ -1,8 +1,7 @@
 name: CI
 
 on:
-  push:
-    branches: [ main ]
+  pull_request:
 
 jobs:
   test:
@@ -17,7 +16,14 @@ jobs:
     - uses: actions/setup-node@v4
       with:
         node-version: '24'
+        cache: 'npm'
     - run: npm ci
+    - name: Cache Playwright browsers
+      uses: actions/cache@v4
+      with:
+        path: ~/.cache/ms-playwright
+        key: ${{ runner.os }}-playwright-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: ${{ runner.os }}-playwright-
     - run: npx playwright install --with-deps
     - run: npx playwright test
     - name: Upload report
