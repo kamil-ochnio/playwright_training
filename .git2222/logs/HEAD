@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 ba89cc69d8c167078bca0042a45513624de695a3 kochnio <kochnio@softsystem.pl> 1772792693 +0100	commit (initial): Initialize Playwright project with configuration, scripts, and example test
+ba89cc69d8c167078bca0042a45513624de695a3 12e47e4135e101f3799b8189c5c6e0dfe24a8c73 kochnio <kochnio@softsystem.pl> 1772792858 +0100	commit: Add package-lock.json and .last-run.json for dependency management and test results
+12e47e4135e101f3799b8189c5c6e0dfe24a8c73 6435bc9590e67a8e1e320753d8382a65501093d7 kochnio <kochnio@softsystem.pl> 1772797397 +0100	commit: Add Conventional Commits template and Husky hook for commit message prefill
+6435bc9590e67a8e1e320753d8382a65501093d7 7c50d0c847db7ed404171fb2acf20d28c65e8273 kochnio <kochnio@softsystem.pl> 1773385433 +0100	commit: Add test plans and implement Playwright tests for documentation and login functionality
+7c50d0c847db7ed404171fb2acf20d28c65e8273 7c50d0c847db7ed404171fb2acf20d28c65e8273 kochnio <kochnio@softsystem.pl> 1773385507 +0100	checkout: moving from main to pageObject
+7c50d0c847db7ed404171fb2acf20d28c65e8273 d0566934408ea26b9bf24240324362c949828d37 kochnio <kochnio@softsystem.pl> 1773395875 +0100	commit: Add coding standards for Page Object Pattern and implement registration page tests
+d0566934408ea26b9bf24240324362c949828d37 9e1c465ee24645aaf765f17fbe1a0c29ec85419c kochnio <kochnio@softsystem.pl> 1774599127 +0100	commit: Refactor login and registration tests to use Page Object Model; add negative scenario tests for both functionalities
+9e1c465ee24645aaf765f17fbe1a0c29ec85419c 0000000000000000000000000000000000000000 kochnio <kochnio@softsystem.pl> 1774603275 +0100	Branch: renamed refs/heads/pageObject to refs/heads/main
+0000000000000000000000000000000000000000 9e1c465ee24645aaf765f17fbe1a0c29ec85419c kochnio <kochnio@softsystem.pl> 1774603275 +0100	Branch: renamed refs/heads/pageObject to refs/heads/main

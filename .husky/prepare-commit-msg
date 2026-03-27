@@ -1,0 +1,20 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+MSG_FILE=$1
+COMMIT_SOURCE=$2
+
+# Don't overwrite merge/squash/amend messages or when a template was already provided
+case "$COMMIT_SOURCE" in
+  merge|squash|message|template)
+    exit 0
+    ;;
+esac
+
+# If the message file already has content, do nothing
+if [ -s "$MSG_FILE" ]; then
+  exit 0
+fi
+
+# Prefill with our Conventional Commits template
+cat .gitmessage > "$MSG_FILE"

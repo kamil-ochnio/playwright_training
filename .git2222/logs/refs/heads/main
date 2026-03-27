@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 7c50d0c847db7ed404171fb2acf20d28c65e8273 kochnio <kochnio@softsystem.pl> 1773385507 +0100	branch: Created from HEAD
+7c50d0c847db7ed404171fb2acf20d28c65e8273 d0566934408ea26b9bf24240324362c949828d37 kochnio <kochnio@softsystem.pl> 1773395875 +0100	commit: Add coding standards for Page Object Pattern and implement registration page tests
+d0566934408ea26b9bf24240324362c949828d37 9e1c465ee24645aaf765f17fbe1a0c29ec85419c kochnio <kochnio@softsystem.pl> 1774599127 +0100	commit: Refactor login and registration tests to use Page Object Model; add negative scenario tests for both functionalities
+9e1c465ee24645aaf765f17fbe1a0c29ec85419c 9e1c465ee24645aaf765f17fbe1a0c29ec85419c kochnio <kochnio@softsystem.pl> 1774603275 +0100	Branch: renamed refs/heads/pageObject to refs/heads/main

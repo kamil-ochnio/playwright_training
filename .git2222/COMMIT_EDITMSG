@@ -1,0 +1,1 @@
+Refactor login and registration tests to use Page Object Model; add negative scenario tests for both functionalities
