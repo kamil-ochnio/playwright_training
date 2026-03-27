@@ -36,6 +36,8 @@ test.describe('Registration - negative scenarios', () => {
     await expect(page.getByRole('alert').first()).toBeVisible();
   });
 
+  
+
   test('does not submit when password is too short', async ({ page }) => {
     const uniqueEmail = `user_${Date.now()}@example.com`;
     await registerPage.register(uniqueEmail, 'Test User', 'ab');
